@@ -1,0 +1,29 @@
+[quote=SirDoggyJvla]
+This is an unofficial port of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3171829037]Derived Object Module Extractor (DOME)[/url] from [url=https://steamcommunity.com/id/zendachi]Burryaga[/url] to Build 42. It implements the Build 41 version as well as a simple port to Build 42.
+[/quote]
+
+[hr][/hr]
+
+[quote]
+This mod is an API provided for [b]modders[/b] to easily access [url=https://pzwiki.net/wiki/ISBaseObject#Object_inheritance]derived Lua objects[/url] from ISBaseObject.
+
+Due to limitations, only derived objects of ISBaseObject which were derived in the media/server and media/client folders can be accessed, so no media/shared Lua objects.
+[/quote]
+
+To use the tool, simply do:
+[code]
+local DOME = require("DOME")
+local DerivedObject = DOME.require("DerivedObject")
+[/code]
+
+With "DerivedObject" the Lua object 'Type' (aka name).
+
+[h1]Github[/h1]
+[url=https://github.com/SirDoggyJvla/Zomboid-Forge-B42][img]https://raw.githubusercontent.com/SirDoggyJvla/Zomboid-Forge/main/images/Github%20banner.png[/img][/url]
+
+[hr][/hr]
+
+[url=https://discord.com/invite/SReMnbV4V7][img]https://raw.githubusercontent.com/Chuckleberry-Finn/chuckImages/main/PZmodCommBanner2.png[/img][/url]
+
+Workshop ID: 3559919243
+Mod ID: DOME-fork
